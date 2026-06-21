@@ -195,7 +195,7 @@ function PlayerControlPanel(props: PlayerControlPanelProps) {
 											<img
 												src="/img/logo512.png"
 												alt="logo"
-												style={{ height: '72px', marginRight: '12px' }}
+												style={{ height: '40px', marginRight: '12px' }}
 											/>
 											<H3 style={{ margin: 0 }}>Deskreen CE Viewer</H3>
 										</Row>
@@ -209,10 +209,12 @@ function PlayerControlPanel(props: PlayerControlPanelProps) {
 								>
 									<Button
 										style={{
+											display: 'none',
 											borderRadius: '100px',
 											marginLeft: '8px',
 											padding: '8px 18px',
 											minHeight: '36px',
+
 											background:
 												'linear-gradient(135deg, hsl(258, 90%, 66%) 0%, hsl(210, 96%, 62%) 30%, hsl(192, 94%, 44%) 70%, hsl(28, 96%, 58%) 100%)',
 											border: 'none',

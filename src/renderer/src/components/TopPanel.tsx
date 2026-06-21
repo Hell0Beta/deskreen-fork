@@ -231,6 +231,7 @@ export default function TopPanel({ handleReset }: Props): React.ReactElement {
 			<Button
 				id="top-panel-donate-button"
 				className={classes.donateButton}
+				style={{ display: 'none' }}
 				onClick={handleDonateButtonClick}
 			>
 				<div className={classes.donateButtonContent}>
